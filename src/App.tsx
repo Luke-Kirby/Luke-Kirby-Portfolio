@@ -1,8 +1,6 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.scss";
-import Title from "./components/Title";
-import { Route, Router, Routes, Link } from "react-router-dom";
+import { Route, Routes, Link } from "react-router-dom";
 import Home from "./view/Home";
 import About from "./view/About";
 

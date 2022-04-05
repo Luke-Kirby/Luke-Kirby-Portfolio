@@ -5,7 +5,7 @@ import Title from "./components/Title";
 import { Route, Router, Routes, Link } from "react-router-dom";
 import Home from "./view/Home";
 import About from "./view/About";
-import SideBar from "./view/SideBar";
+import SideBar from "./components/SideBar";
 
 function App() {
   return (

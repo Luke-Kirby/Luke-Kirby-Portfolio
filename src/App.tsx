@@ -3,8 +3,8 @@ import logo from "./logo.svg";
 import "./App.scss";
 import Title from "./components/Title";
 import { Route, Router, Routes, Link } from "react-router-dom";
-import Home from "./components/Home";
-import About from "./components/About";
+import Home from "./view/Home";
+import About from "./view/About";
 
 function App() {
   return (

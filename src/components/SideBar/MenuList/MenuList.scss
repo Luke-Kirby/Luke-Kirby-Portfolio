@@ -1,0 +1,44 @@
+.MenuListDiv {
+  margin-left: 20%;
+}
+
+.MenuLink {
+  width: fit-content;
+  block-size: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: rgb(195, 195, 195);
+}
+
+.MenuLink:hover > .MenuLinkImg {
+  box-sizing: border-box;
+  width: 70px;
+  height: 70px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: rgb(255, 255, 255);
+  margin-left: 5%;
+}
+
+.MenuLink:hover > .MenuLinkLabel {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+.MenuLinkImg {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  transition: all 0.5s ease;
+}
+
+.MenuLinkLabel {
+  font-family: revert;
+  font-size: 30px;
+  margin: 0;
+  padding-left: 10px;
+  transition: color 0.5s ease;
+}

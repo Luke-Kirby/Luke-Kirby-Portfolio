@@ -1,5 +1,6 @@
 import React from "react";
 import { isTemplateSpan } from "typescript";
+import "./MenuList.scss";
 
 type ListItem = {
   label: string;
@@ -12,27 +13,23 @@ type Props = {
 };
 
 function MenuList(props: Props) {
+  let iconAlt;
+  iconAlt = {};
+
   return (
-    <div>
-      {/* Label */}
-      <p
-        style={{
-          fontFamily: "revert",
-          color: "rgb(255, 255, 255)",
-          fontSize: "30px",
-          margin: "auto",
-          marginTop: "10%",
-        }}
-      >
-        {props.items[0]}
-      </p>
+    <div className="MenuListDiv">
+      {props.items.map((item) => {
+        return (
+          <a className="MenuLink" href={item.path}>
+            <img
+              className="MenuLinkImg"
+              src={`/images/icons/${item.icon}Icon.png`}
+            />
 
-      {/* Icon */}
-      {/* <img
-      alt="Profile Picture"
-      src="/images/icon/houseIcon.jpeg"
-
-    /> */}
+            <p className="MenuLinkLabel">{item.label}</p>
+          </a>
+        );
+      })}
     </div>
   );
 }

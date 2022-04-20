@@ -13,9 +13,6 @@ type Props = {
 };
 
 function MenuList(props: Props) {
-  let iconAlt;
-  iconAlt = {};
-
   return (
     <div className="MenuListDiv">
       {props.items.map((item) => {

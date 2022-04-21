@@ -10,9 +10,9 @@ function SideBar() {
         items={[
           { label: "Home", icon: "home", path: "/" },
           { label: "About", icon: "about", path: "about" },
-          { label: "CV", icon: "CV", path: "" },
-          { label: "Portfolio", icon: "portfolio", path: "" },
-          { label: "Contact", icon: "contact", path: "" },
+          { label: "CV", icon: "CV", path: "cv" },
+          { label: "Portfolio", icon: "portfolio", path: "portfolio" },
+          { label: "Contact", icon: "contact", path: "contact" },
         ]}
       />
     </div>

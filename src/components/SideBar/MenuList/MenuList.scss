@@ -1,8 +1,8 @@
-.MenuListDiv {
+.menu-list-container {
   margin-left: 20%;
 }
 
-.MenuLink {
+.menu-link {
   width: fit-content;
   block-size: fit-content;
   display: flex;
@@ -13,7 +13,7 @@
   color: rgb(195, 195, 195);
 }
 
-.MenuLink:hover > .MenuLinkImg {
+.menu-link:hover > .menu-link-img {
   box-sizing: border-box;
   width: 70px;
   height: 70px;
@@ -23,19 +23,19 @@
   margin-left: 5%;
 }
 
-.MenuLink:hover > .MenuLinkLabel {
+.menu-link:hover > .menu-link-label {
   color: rgb(255, 255, 255);
   font-weight: bold;
 }
 
-.MenuLinkImg {
+.menu-link-img {
   border-radius: 50%;
   width: 50px;
   height: 50px;
   transition: all 0.5s ease;
 }
 
-.MenuLinkLabel {
+.menu-link-label {
   font-family: revert;
   font-size: 30px;
   margin: 0;

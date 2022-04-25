@@ -14,12 +14,8 @@
 }
 
 .menu-link:hover > .menu-link-img {
-  box-sizing: border-box;
-  width: 70px;
-  height: 70px;
-  border-style: solid;
-  border-width: 10px;
-  border-color: rgb(255, 255, 255);
+  width: 50px;
+  height: 50px;
   margin-left: 5%;
 }
 
@@ -29,16 +25,21 @@
 }
 
 .menu-link-img {
+  box-sizing: border-box;
   border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  transition: all 0.5s ease;
+  width: 30px;
+  height: 30px;
+  transition: height 0.5s ease, width 0.5s ease, margin-left 0.5s ease;
 }
 
 .menu-link-label {
   font-family: revert;
-  font-size: 30px;
+  font-size: 15px;
   margin: 0;
   padding-left: 10px;
-  transition: color 0.5s ease;
+}
+
+.highlighted-img {
+  filter: invert(50%) sepia(20%) saturate(3837%) hue-rotate(167deg)
+    brightness(94%) contrast(85%); //using a filter generator to change colour
 }

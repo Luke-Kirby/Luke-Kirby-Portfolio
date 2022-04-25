@@ -1,11 +1,13 @@
 import "./ProfilePicture.scss";
 
-function ProfilePicture() {
+type Props = { profilePicturePath: string };
+
+function ProfilePicture({ profilePicturePath }: Props) {
   return (
     <img
       alt="Profile Picture"
-      src="/images/LukeLad.jpeg"
-      className="ProfilePicture_div"
+      src={profilePicturePath}
+      className="profile-picture"
     />
   );
 }

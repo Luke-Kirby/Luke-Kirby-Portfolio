@@ -3,6 +3,9 @@ import "./App.scss";
 import { Route, Routes, Link } from "react-router-dom";
 import Home from "./view/Home";
 import About from "./view/About";
+import Cv from "./view/Cv";
+import Portfolio from "./view/Portfolio";
+import Contact from "./view/Contact";
 import SideBar from "./components/SideBar";
 
 function App() {
@@ -12,12 +15,12 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />
+        <Route path="cv" element={<Cv />} />
+        <Route path="portfolio" element={<Portfolio />} />
+        <Route path="contact" element={<Contact />} />
       </Routes>
 
-      <header className="App-header">
-        <Link to={"/"}>Home</Link>
-        <Link to={"about"}>About</Link>
-      </header>
+      <header className="App-header"></header>
     </div>
   );
 }

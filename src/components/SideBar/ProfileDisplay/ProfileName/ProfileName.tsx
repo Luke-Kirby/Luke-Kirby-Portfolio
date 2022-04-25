@@ -1,19 +1,17 @@
-type Props = { fontSizePx: number };
+import { profile } from "console";
 
-function ProfileName({ fontSizePx }: Props) {
-  return (
-    <p
-      style={{
-        fontFamily: "revert",
-        color: "rgb(255, 255, 255)",
-        fontSize: fontSizePx,
-        margin: "auto",
-        marginTop: "10%",
-      }}
-    >
-      Luke Kirby
-    </p>
-  );
+type Props = { fontSizePx: number; profileName: string };
+
+function ProfileName({ fontSizePx, profileName }: Props) {
+  const style = {
+    fontFamily: "revert",
+    color: "rgb(255, 255, 255)",
+    fontSize: fontSizePx,
+    margin: "auto",
+    marginTop: "10%",
+  };
+
+  return <p style={style}>{profileName}</p>;
 }
 
 export default ProfileName;

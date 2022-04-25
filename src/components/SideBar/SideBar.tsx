@@ -5,7 +5,11 @@ import "./SideBar.scss";
 function SideBar() {
   return (
     <div className="SideBar_main">
-      <ProfileDisplay sizePx={200} />
+      <ProfileDisplay
+        sizePx={200}
+        profileName={"Luke Kirby"}
+        profilePicturePath={"/images/LukeLad.jpeg"}
+      />
       <MenuList
         items={[
           { label: "Home", icon: "home", path: "/" },

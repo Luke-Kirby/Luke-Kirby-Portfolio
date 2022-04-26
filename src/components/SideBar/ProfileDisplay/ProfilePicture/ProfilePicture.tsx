@@ -5,7 +5,7 @@ type Props = { profilePicturePath: string };
 function ProfilePicture({ profilePicturePath }: Props) {
   return (
     <img
-      alt="Profile Picture"
+      alt="Profile"
       src={profilePicturePath}
       className="profile-picture"
     />

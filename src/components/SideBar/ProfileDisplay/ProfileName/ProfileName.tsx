@@ -8,7 +8,7 @@ function ProfileName({ fontSizePx, profileName }: Props) {
     color: "rgb(255, 255, 255)",
     fontSize: fontSizePx,
     margin: "auto",
-    marginTop: "10%",
+    marginTop: "0%",
   };
 
   return <p style={style}>{profileName}</p>;

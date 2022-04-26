@@ -10,9 +10,10 @@ type Props = {
 function ProfileDisplay({ sizePx, profileName, profilePicturePath }: Props) {
   const style = {
     width: sizePx,
-    height: 1.5 * sizePx,
+    height: 1.3 * sizePx,
     margin: "auto",
     marginTop: "50px",
+    marginBottom: "10px",
   };
 
   return (

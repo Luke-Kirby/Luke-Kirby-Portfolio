@@ -1,0 +1,22 @@
+.social-container {
+  width: 50%;
+  height: 40px;
+  margin: auto;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-icons {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: rgb(34, 36, 48);
+  transition: background-color 0.5s ease, width 0.5s ease, height 0.5s ease;
+}
+
+.social-icons:hover {
+  height: 40px;
+  width: 40px;
+  background-color: rgb(20, 157, 221);
+}

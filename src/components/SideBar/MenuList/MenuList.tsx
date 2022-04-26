@@ -1,5 +1,3 @@
-import React from "react";
-import { isTemplateSpan } from "typescript";
 import "./MenuList.scss";
 import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
@@ -29,6 +27,7 @@ function MenuList(props: Props) {
                   : ""
               }`}
               src={`/images/icons/${item.icon}Icon.png`}
+              alt={item.label}
             />
 
             <p className="menu-link-label">{item.label}</p>

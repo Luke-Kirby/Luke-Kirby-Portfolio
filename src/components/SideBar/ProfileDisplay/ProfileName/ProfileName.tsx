@@ -1,5 +1,3 @@
-import { profile } from "console";
-
 type Props = { fontSizePx: number; profileName: string };
 
 function ProfileName({ fontSizePx, profileName }: Props) {

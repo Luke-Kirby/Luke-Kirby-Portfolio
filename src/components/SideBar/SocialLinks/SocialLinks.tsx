@@ -16,6 +16,7 @@ function SocialLinks(props: Props) {
         return (
           <a href={item.path}>
             <img
+              alt={item.icon}
               className="social-icons"
               src={`/images/icons/${item.icon}Icon.png`}
             ></img>

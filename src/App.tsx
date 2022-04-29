@@ -11,16 +11,18 @@ import SideBar from "./components/SideBar";
 function App() {
   return (
     <div className="App">
-      <SideBar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="about" element={<About />} />
-        <Route path="cv" element={<Cv />} />
-        <Route path="portfolio" element={<Portfolio />} />
-        <Route path="contact" element={<Contact />} />
-      </Routes>
-
-      <header className="App-header"></header>
+      <div className="sidebar">
+        <SideBar />
+      </div>
+      <div className="main">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="about" element={<About />} />
+          <Route path="cv" element={<Cv />} />
+          <Route path="portfolio" element={<Portfolio />} />
+          <Route path="contact" element={<Contact />} />
+        </Routes>
+      </div>
     </div>
   );
 }

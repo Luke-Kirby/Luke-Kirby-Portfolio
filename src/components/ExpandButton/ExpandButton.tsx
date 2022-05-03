@@ -1,5 +1,4 @@
 import "./ExpandButton.scss";
-import React, { useState } from "react";
 
 type Props = {
   onClick: any;

@@ -1,0 +1,62 @@
+.expand-button {
+  position: relative;
+  left: 265px;
+  margin-top: 10px;
+  height: 50px;
+  width: 30px;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+  background-color: #040b14;
+  border: none;
+  border: 2px solid white;
+  border-radius: 30%;
+  transition: all 0.5s ease-out;
+}
+
+.expand-button:hover {
+  background-color: rgb(20, 157, 221);
+  cursor: pointer;
+}
+
+.expand-button[data-expanded="true"] {
+  left: 295px;
+  float: right;
+}
+
+.expand-button[data-expanded="true"]:hover {
+  animation: stretchLeft 1s infinite;
+}
+
+.expand-button[data-expanded="false"] {
+  left: 10px;
+  transition: all 0.5s ease;
+}
+
+.expand-button[data-expanded="false"]:hover {
+  animation: stretchRight 1s infinite;
+}
+
+@keyframes stretchLeft {
+  0% {
+    width: 30px;
+  }
+  50% {
+    width: 36px;
+  }
+  100% {
+    width: 30px;
+  }
+}
+
+@keyframes stretchRight {
+  0% {
+    width: 30px;
+  }
+  50% {
+    width: 36px;
+  }
+  100% {
+    width: 30px;
+  }
+}

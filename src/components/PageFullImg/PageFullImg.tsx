@@ -15,7 +15,7 @@ function PageContainer(props: Props) {
     <div className="page-container" style={imgStyle}>
       <div className="element-container">
         <h1 className={classnames("title", "title-h1")}>{props.title}</h1>
-        <h2 className="title">
+        <h2 className={classnames("title","title-h2")}>
           <em>{props.subTitle}</em>
         </h2>
       </div>

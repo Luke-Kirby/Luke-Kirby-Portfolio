@@ -1,7 +1,19 @@
-import Title from "../components/Title";
+import "./Contact.scss";
+import classnames from "classnames";
 
 function Contact() {
-  return <Title title={"Contact Page"} />;
+  return (
+    <div className="page-container-contact">
+      <div className={classnames("contact", "contact-text")}>
+        <h1>
+          <em>
+            <u>Contact</u>
+          </em>
+        </h1>
+        <div className="details-container"></div>
+      </div>
+    </div>
+  );
 }
 
 export default Contact;

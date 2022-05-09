@@ -1,7 +1,5 @@
-import Title from "../components/Title";
-
 function Portfolio() {
-  return <Title title={"Portfolio Page"} />;
+  return <div></div>;
 }
 
 export default Portfolio;

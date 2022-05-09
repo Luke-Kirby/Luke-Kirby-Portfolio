@@ -1,6 +1,6 @@
 import "./ExpandButton.scss";
 
-type Props = {
+interface Props {
   onClick: any;
   expand: boolean;
 };

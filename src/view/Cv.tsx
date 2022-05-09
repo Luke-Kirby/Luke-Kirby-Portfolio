@@ -89,13 +89,13 @@ function Cv() {
             />
             {DropButtonSelf ? null : null}
             <div
-              style={{ height: Selfheight, transition: "all 1s ease" }}
+              style={{ height: Selfheight,  }}
               className="block-text"
             >
               <p
                 style={{
                   //marginBottom: Bottommargin,
-                  visibility: Selfvisibility,
+                  //visibility: Selfvisibility,
                   //transition: "margin-bottom 2s ease",
                   //overflow: overflow,
                 }}

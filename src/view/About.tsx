@@ -17,7 +17,7 @@ const PictureItems = [{ label: "Climbing", imgPath: "" }];
 function About() {
   return (
     <div
-      style={{ backgroundImage: "url('/images/MajorcaClimb.jpg')" }}
+      style={{ backgroundImage: "url('/images/Tenerife.jpg')" }}
       className="page-container"
     >
       <div className={classnames("about", "about-text")}>

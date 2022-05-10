@@ -1,0 +1,26 @@
+.icon-label-container {
+  height: 90%;
+  margin-left: 40px;
+  display: flex;
+  align-items: center;
+  align-content: space-around;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.icon-label:hover .contact-icon {
+  transform: scaleX(-1);
+}
+
+.icon-label {
+  display: flex;
+  justify-content: left;
+  align-self: flex-start;
+}
+
+.contact-icon {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  transition: all 0.5s ease;
+}

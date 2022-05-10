@@ -1,4 +1,5 @@
 import "./SocialLinks.scss";
+import { Link } from "react-router-dom";
 
 interface ListItem {
   icon: string;
@@ -13,14 +14,23 @@ function SocialLinks(props: Props) {
   return (
     <div className="social-container">
       {props.socialItems.map((item) => {
+        let image = (
+          <img
+            alt={item.icon}
+            className="social-icons"
+            src={`/images/icons/${item.icon}Icon.png`}
+          />
+        );
         return (
-          <a href={item.path}>
-            <img
-              alt={item.icon}
-              className="social-icons"
-              src={`/images/icons/${item.icon}Icon.png`}
-            ></img>
-          </a>
+          <div>
+            {item.path === "/contact" ? (
+              <Link to={item.path} key={item.icon}>
+                {image}
+              </Link>
+            ) : (
+              <a href={item.path}>{image}</a>
+            )}
+          </div>
         );
       })}
     </div>

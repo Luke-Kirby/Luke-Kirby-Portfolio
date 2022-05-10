@@ -88,17 +88,16 @@ function Cv() {
               expand={DropButtonSelf}
             />
             {DropButtonSelf ? null : null}
-            <div
-              style={{ height: Selfheight,  }}
-              className="block-text"
-            >
+            <div style={{ height: Selfheight }} className="block-text">
               <p
-                style={{
-                  //marginBottom: Bottommargin,
-                  //visibility: Selfvisibility,
-                  //transition: "margin-bottom 2s ease",
-                  //overflow: overflow,
-                }}
+                style={
+                  {
+                    //marginBottom: Bottommargin,
+                    //visibility: Selfvisibility,
+                    //transition: "margin-bottom 2s ease",
+                    //overflow: overflow,
+                  }
+                }
               >
                 I am seeking a career change from a Mechanical Engineer to a
                 Front-End Web Developer. Currently, I'm self learning front-end
@@ -240,7 +239,7 @@ function Cv() {
                   Physics - <b>B</b>
                 </li>
                 <li>
-                  3D Design - <b>A</b>
+                  3D Design - <b>B</b>
                 </li>
               </ul>
               <p>

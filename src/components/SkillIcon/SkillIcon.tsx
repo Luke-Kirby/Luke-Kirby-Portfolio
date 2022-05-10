@@ -15,17 +15,17 @@ function SkillIcon(props: Props) {
       {props.items.map((item) => {
         let topMargin: string;
         let bottomMargin: string;
-        let hoverColor: string;
         if (item.top) {
           topMargin = "-30px";
-          bottomMargin = "30px"
+          bottomMargin = "30px";
         } else {
           topMargin = "30px";
-          bottomMargin = "-30px"
+          bottomMargin = "-30px";
         }
 
         return (
-          <div id="containerDiv"
+          <div
+            id="containerDiv"
             style={{
               marginTop: topMargin,
               marginBottom: bottomMargin,
@@ -33,7 +33,9 @@ function SkillIcon(props: Props) {
             }}
             className="hexagon"
           >
-            <p><em>{item.label}</em></p>
+            <p>
+              <em>{item.label}</em>
+            </p>
           </div>
         );
       })}

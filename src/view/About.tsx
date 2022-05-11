@@ -1,7 +1,6 @@
 import SkillIcon from "../components/SkillIcon";
 import "./About.scss";
 import classnames from "classnames";
-import DynamicPicture from "../components/DynamicPicture";
 
 const skillItems = [
   { label: "JavaScript", top: false },
@@ -12,7 +11,7 @@ const skillItems = [
   { label: "Git", top: true },
 ];
 
-const PictureItems = [{ label: "Climbing", imgPath: "" }];
+//const PictureItems = [{ label: "Climbing", imgPath: "" }];
 
 function About() {
   return (

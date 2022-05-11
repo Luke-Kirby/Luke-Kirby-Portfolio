@@ -1,70 +1,33 @@
 import React, { useState } from "react";
-import "./Cv.scss";
+import "./Timeline.scss";
 import classnames from "classnames";
 import BulletPoint from "../components/Cv/BulletPoint";
 import SmoothCollapse from "../components/Cv/ExpandContainer";
 
-// function AssignButton(section: string) {
-//   return;
-//   let Selfwidth: string;
-//   let Selfheight: string;
-//   const [DropButtonSelf, invertSelf] = useState(false);
-//   const buttonClickSelf = () => {
-//     invertSelf(!DropButtonSelf);
-//   };
-// }
-
-function Cv() {
-  //AssignButton("Self");
-
-  let Selfwidth: string;
-  let Selfheight: string;
-  let Selfvisibility: any;
-  let Bottommargin: any;
-  let overflow: any;
+function Timeline() {
   const [DropButtonSelf, invertSelf] = useState(false);
   const buttonClickSelf = () => {
     invertSelf(!DropButtonSelf);
   };
-  if (DropButtonSelf) {
-    Selfwidth = "100%";
-    Selfheight = "40px";
-    Selfvisibility = "visible";
-    Bottommargin = "0%";
-    overflow = "auto";
-  } else {
-    Selfwidth = "100%";
-    Selfheight = "-24%";
-    Selfvisibility = "hidden";
-    Bottommargin = "-50%";
-    overflow = "hidden";
-  }
-  let Rosenwidth: string;
-  let Rosenheight: string;
+
   const [DropButtonRosen, invertRosen] = useState(false);
   const buttonClickRosen = () => {
     invertRosen(!DropButtonRosen);
   };
-  let Masterswidth: string;
-  let Mastersheight: string;
+
   const [DropButtonMasters, invertMasters] = useState(false);
   const buttonClickMasters = () => {
     invertMasters(!DropButtonMasters);
   };
-  let Bachelorswidth: string;
-  let Bachelorsheight: string;
+
   const [DropButtonBachelors, invertBachelors] = useState(false);
   const buttonClickBachelors = () => {
     invertBachelors(!DropButtonBachelors);
   };
-  let Runshawwidth: string;
-  let Runshawheight: string;
   const [DropButtonRunshaw, invertRunshaw] = useState(false);
   const buttonClickRunshaw = () => {
     invertRunshaw(!DropButtonRunshaw);
   };
-  let Parklandswidth: string;
-  let Parklandsheight: string;
   const [DropButtonParklands, invertParklands] = useState(false);
   const buttonClickParklands = () => {
     invertParklands(!DropButtonParklands);
@@ -74,7 +37,7 @@ function Cv() {
       <div className={classnames("cv", "cv-text")}>
         <h1>
           <em>
-            <u>CV</u>
+            <u>Timeline</u>
           </em>
         </h1>
         <div className="cv-content-cotainer">
@@ -293,4 +256,4 @@ function Cv() {
   );
 }
 
-export default Cv;
+export default Timeline;

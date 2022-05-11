@@ -49,7 +49,7 @@ function About() {
         </h2>
         <SkillIcon items={skillItems} />
       </div>
-      <div style={{ marginTop: "50px" }} className="about">
+      {/* <div style={{ marginTop: "50px" }} className="about">
         <h2>
           <em>
             <u>Hobbies</u>
@@ -58,7 +58,7 @@ function About() {
         <div className="images-container">
           <DynamicPicture items={PictureItems} />
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

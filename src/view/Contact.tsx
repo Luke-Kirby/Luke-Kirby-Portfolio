@@ -13,7 +13,7 @@ const items = [
     icon: "bigMail",
     path: "mailto:lbkirby96@hotmail.com",
   },
-  { label: "07719155448", icon: "mobile", path: "" },
+  { label: "07719 155 448", icon: "mobile", path: "" },
 ];
 
 function Contact() {

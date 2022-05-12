@@ -14,7 +14,7 @@
 
 .cv {
   font-family: "Raleway", sans-serif;
-  color: rgb(0, 0, 0);
+  color: rgb(34, 36, 48);
   //width: 80%;
   margin: 20px 10% 0 10%;
   transition: all 0.5s ease;
@@ -63,7 +63,7 @@
   width: 6px;
   margin: 12px 0 0 5px;
   height: fill;
-  background-color: #040b14;
+  background-color: rgb(34, 36, 48);
   flex: none;
   display: flex;
   justify-content: end;
@@ -72,7 +72,7 @@
 }
 
 .side-link-bottom {
-  background-color: #040b14;
+  background-color: rgb(34, 36, 48);
   width: 6px;
   height: 6px;
   border-radius: 50%;

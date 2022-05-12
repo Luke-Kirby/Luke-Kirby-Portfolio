@@ -18,6 +18,7 @@ function App() {
 
   sideBarButton ? (sideBarWidth = "300px") : (sideBarWidth = "0px");
 
+  //framer-motion
   return (
     <div className="App">
       <div className="sidebar-button">

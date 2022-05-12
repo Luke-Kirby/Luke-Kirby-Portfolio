@@ -3,7 +3,6 @@ import "./Cv.scss";
 import classnames from "classnames";
 import BulletPoint from "../components/Cv/BulletPoint";
 import SmoothCollapse from "../components/Cv/ExpandContainer";
-import { createVerify } from "crypto";
 
 function Cv() {
   const [DropButtonSelf, invertSelf] = useState(false);

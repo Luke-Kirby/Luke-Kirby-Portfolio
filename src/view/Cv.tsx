@@ -1,10 +1,11 @@
 import React, { useState } from "react";
-import "./Timeline.scss";
+import "./Cv.scss";
 import classnames from "classnames";
 import BulletPoint from "../components/Cv/BulletPoint";
 import SmoothCollapse from "../components/Cv/ExpandContainer";
+import { createVerify } from "crypto";
 
-function Timeline() {
+function Cv() {
   const [DropButtonSelf, invertSelf] = useState(false);
   const buttonClickSelf = () => {
     invertSelf(!DropButtonSelf);
@@ -256,4 +257,4 @@ function Timeline() {
   );
 }
 
-export default Timeline;
+export default Cv;

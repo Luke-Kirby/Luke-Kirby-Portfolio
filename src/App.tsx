@@ -3,7 +3,7 @@ import "./App.scss";
 import { Route, Routes } from "react-router-dom";
 import Home from "./view/Home";
 import About from "./view/About";
-import Timeline from "./view/Timeline";
+import Cv from "./view/Cv";
 import Projects from "./view/Projects";
 import Contact from "./view/Contact";
 import SideBar from "./components/SideBar";
@@ -31,7 +31,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="about" element={<About />} />
-          <Route path="timeline" element={<Timeline />} />
+          <Route path="cv" element={<Cv />} />
           <Route path="projects" element={<Projects />} />
           <Route path="contact" element={<Contact />} />
         </Routes>

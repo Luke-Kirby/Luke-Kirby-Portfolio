@@ -1,8 +1,4 @@
 .page-container {
-  height: 100vh;
-  width: 100%;
-  background-size: cover;
-  background-position: center;
   display: flex;
   flex-direction: column;
 }
@@ -10,7 +6,7 @@
 .element-container {
   display: flex;
   flex-direction: column;
-  margin: auto auto auto 20vw;
+  margin: auto auto auto 15vw;
   align-items: flex-start;
 }
 

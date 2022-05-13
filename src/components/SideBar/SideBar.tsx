@@ -15,7 +15,6 @@ const socialItems = [
 
 const items = [
   { label: "Home", icon: "home", path: "" },
-  { label: "About", icon: "about", path: "about" },
   { label: "CV", icon: "CV", path: "cv" },
   { label: "Projects", icon: "portfolio", path: "projects" },
   { label: "Contact", icon: "contact", path: "contact" },

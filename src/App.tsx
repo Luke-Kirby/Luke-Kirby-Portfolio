@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "./App.scss";
 import { Route, Routes } from "react-router-dom";
 import Home from "./view/Home";
-import About from "./view/About";
 import Cv from "./view/Cv";
 import Projects from "./view/Projects";
 import Contact from "./view/Contact";
@@ -18,8 +17,8 @@ function App() {
 
   sideBarButton ? (sideBarWidth = "300px") : (sideBarWidth = "0px");
 
-  //framer-motion
   return (
+    //framer-motion
     <div className="App">
       <div className="sidebar-button">
         <ExpandButton onClick={buttonClick} expand={sideBarButton} />
@@ -31,7 +30,6 @@ function App() {
       <div className="main">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="about" element={<About />} />
           <Route path="cv" element={<Cv />} />
           <Route path="projects" element={<Projects />} />
           <Route path="contact" element={<Contact />} />

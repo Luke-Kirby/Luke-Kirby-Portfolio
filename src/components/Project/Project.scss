@@ -1,5 +1,5 @@
 .project-closed {
-  //height: 200px;
+  //height: 33%;
   width: 30vw;
   //height: auto;
   flex-grow: 0;
@@ -12,7 +12,12 @@
   margin: 0 10px;
   cursor: pointer;
   position: relative;
+  transition: all 0.5s ease;
 }
+
+// .project-closed:hover {
+//   filter: drop-shadow(2px 2px 7px #000000);
+// }
 
 .project-fade {
   position: absolute;
@@ -52,6 +57,6 @@
   opacity: 100%;
 }
 
-.project-closed:hover .project-fade {
-  //background-image: radial-gradient(#00000000 60%, #00000000);
-}
+// .project-closed:hover .project-fade {
+//   //background-image: radial-gradient(#00000000 60%, #00000000);
+// }

@@ -16,7 +16,13 @@ const skillItems = [
 function About() {
   return (
     <div
-      style={{ backgroundImage: "url('/images/Tenerife.jpg')" }}
+      style={{
+        background: `url('/images/Tenerife.jpg') fixed`,
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover ",
+        backgroundPosition: "center center",
+        backgroundAttachment: "fixed",
+      }}
       className="page-container"
     >
       <div className={classnames("about", "about-text")}>

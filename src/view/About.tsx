@@ -31,6 +31,7 @@ function About() {
             <u>About</u>
           </em>
         </h1>
+        <div className="text-container">
         <p>
           My name is Luke and I come from South Africa (although I'm very much
           English). I'm a Mechanical Engineer that has discovered a love for
@@ -45,6 +46,7 @@ function About() {
           I had no choice but to quit my job and pursue a career as a Front-End
           Web Developer.
         </p>
+        </div>
       </div>
       <div className="about">
         <h2>

@@ -1,13 +1,13 @@
 .page-division {
-    position: relative;
+  position: relative;
   height: 20px;
   width: 100%;
   background-image: linear-gradient(0deg, #040b1400, #040b14, #040b1400);
   margin: -10px 0 -10px 0;
   z-index: 0;
-overflow: scroll;
--ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none; 
+  overflow: scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;
 }
 
 .page-division::-webkit-scrollbar {

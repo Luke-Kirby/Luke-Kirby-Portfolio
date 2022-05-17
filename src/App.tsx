@@ -20,6 +20,11 @@ function App() {
   return (
     //framer-motion
     <div className="App">
+      <div className="mobile-message-modal">
+        <div className="mobile-message">
+          <p>Mobile Version in Development</p>
+        </div>
+      </div>
       <div className="sidebar-button">
         <ExpandButton onClick={buttonClick} expand={sideBarButton} />
       </div>

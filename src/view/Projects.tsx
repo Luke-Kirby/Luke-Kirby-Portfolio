@@ -13,8 +13,8 @@ function Projects() {
       </div>
       <div className="box-container">
         <div className="project-container">
-        <Project project="ticTacToe" />
-        <Project project="physics" />
+        <Project project="ticTacToe" path="https://shiny-naiad-125924.netlify.app/"/>
+        <Project project="physics" path="https://stately-seahorse-ebd0ac.netlify.app/" />
         </div>
       </div>
     </div>

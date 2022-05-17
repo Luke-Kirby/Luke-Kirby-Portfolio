@@ -1,5 +1,4 @@
 import "./Project.scss";
-import { Link } from "react-router-dom";
 
 interface Props {
   project: string;

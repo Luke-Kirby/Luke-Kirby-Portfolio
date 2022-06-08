@@ -14,6 +14,7 @@ const items = [
     path: "mailto:lbkirby96@hotmail.com",
   },
   { label: "07719 155 448", icon: "mobile", path: "" },
+  { label: "GitHub", icon: "bigGitHub", path: "https://github.com/Luke-Kirby" },
 ];
 
 function Contact() {

@@ -54,21 +54,24 @@ function Cv() {
             {DropButtonSelf ? null : null}
             <div className="block-text">
               <SmoothCollapse expanded={DropButtonSelf}>
-                <p
-                  style={
-                    {
-                      //marginBottom: Bottommargin,
-                      //visibility: Selfvisibility,
-                      //transition: "margin-bottom 2s ease",
-                      //overflow: overflow,
-                    }
-                  }
-                >
+                <p style={{ marginLeft: "20px" }}>
                   I am seeking a career change from a Mechanical Engineer to a
                   Front-End Web Developer. Currently, I'm self learning
                   front-end web development (using online tools such as
                   Codecademy) with JavaScript and TypeScript (with React), Git,
                   HTML and CSS.
+                </p>
+                <p>
+                  <b>Projects:</b>
+                </p>
+                <p style={{ marginLeft: "20px" }}>
+                  I am currently volunteering for the charity{" "}
+                  <a href="https://planetpatrol.co/">Planet Patrol</a> to help
+                  develop their{" "}
+                  <a href="https://app.plasticpatrol.co.uk/#/">app</a> (React).
+                  I've been communicating closely with the program's manager and
+                  other software developers to create new features, resolve
+                  issues and fix bugs on the front-end of the app.
                 </p>
               </SmoothCollapse>
             </div>

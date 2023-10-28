@@ -8,10 +8,10 @@ const socialItems = [
   { icon: "outlook", path: "mailto:lbkirby96@hotmail.com" },
   { icon: "phone", path: "/contact" },
   { icon: "gitHub", path: "https://github.com/Luke-Kirby" },
-  {
-    icon: "zoom",
-    path: "https://us05web.zoom.us/j/7155003910?pwd=RzREWUpES3lZdWI4M0poTWJ0WW8yZz09",
-  },
+  // {
+  //   icon: "zoom",
+  //   path: "https://us05web.zoom.us/j/7155003910?pwd=RzREWUpES3lZdWI4M0poTWJ0WW8yZz09",
+  // },
 ];
 
 const items = [

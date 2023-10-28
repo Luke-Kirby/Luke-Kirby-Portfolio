@@ -1,9 +1,11 @@
 .page-container {
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 
 .element-container {
+  width: 400px;
   display: flex;
   flex-direction: column;
   margin: auto auto auto 15vw;
@@ -26,6 +28,12 @@
 
 .title-h2 {
   animation: animateh2 20s infinite;
+}
+
+@media (max-width: 500px), (max-height: 500px) {
+  .element-container {
+    margin: auto auto auto 10vw;
+  }
 }
 
 @keyframes animateh1 {

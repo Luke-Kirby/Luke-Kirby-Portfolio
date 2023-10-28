@@ -9,22 +9,18 @@ import SideBar from "./components/SideBar";
 import ExpandButton from "./components/ExpandButton";
 
 function App() {
-  const [sideBarButton, invert] = useState(true);
+  const isNarrowScreen = window.innerWidth < 800;
+  const [sideBarButton, setSideBarButton] = useState(!isNarrowScreen);
+
   const buttonClick = () => {
-    invert(!sideBarButton);
+    setSideBarButton(!sideBarButton);
   };
   let sideBarWidth: string;
 
   sideBarButton ? (sideBarWidth = "300px") : (sideBarWidth = "0px");
 
   return (
-    //framer-motion
     <div className="App">
-      <div className="mobile-message-modal">
-        <div className="mobile-message">
-          <p>Mobile Version in Development</p>
-        </div>
-      </div>
       <div className="sidebar-button">
         <ExpandButton onClick={buttonClick} expand={sideBarButton} />
       </div>

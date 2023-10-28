@@ -22,50 +22,16 @@ function About() {
         backgroundSize: "cover ",
         backgroundPosition: "center center",
         backgroundAttachment: "fixed",
+        justifyContent: "space-evenly",
+        alignItems: "start",
       }}
       className="page-container"
     >
-      <div className={classnames("about", "about-text")}>
-        <h1>
-          <em>
-            <u>About</u>
-          </em>
-        </h1>
-        <div className="text-container">
-        <p>
-          My name is Luke and I come from South Africa (although I'm very much
-          English). I'm a Mechanical Engineer that has discovered a love for
-          programming. After ~4 years as a Pipeline Integrity Engineer, I
-          decided to quit my job and become a Software Developer.
-        </p>
-
-        <p>
-          After gaining an interest in coding through Matlab and VBA, I decided
-          to investigate JavaScript, HTML and CSS. This is where my eyes were
-          opened at the truely limitless potential of web development. As such,
-          I had no choice but to quit my job and pursue a career as a Front-End
-          Web Developer.
-        </p>
-        </div>
-      </div>
-      <div className="about">
-        <h2>
-          <em>
-            <u>Skills</u>
-          </em>
-        </h2>
-        <SkillIcon items={skillItems} />
-      </div>
-      {/* <div style={{ marginTop: "50px" }} className="about">
-        <h2>
-          <em>
-            <u>Hobbies</u>
-          </em>
-        </h2>
-        <div className="images-container">
-          <DynamicPicture items={PictureItems} />
-        </div>
-      </div> */}
+      <h1 className="about-h1">Engineer</h1>
+      <h1 className="about-h1">Developer</h1>
+      <h1 className="about-h1">Designer</h1>
+      <h1 className="about-h1">Planner</h1>
+      
     </div>
   );
 }

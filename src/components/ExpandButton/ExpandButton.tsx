@@ -7,8 +7,7 @@ interface Props {
 
 function ExpandButton(props: Props) {
   const style = {
-    backgroundImage: `url("/images/icons/buttonExpandIcon.png")`,
-    transform: `scaleX(${props.expand ? 1 : -1})`,
+    backgroundImage: `url("/images/icons/${props.expand? 'buttonExpand':'hamburger'}Icon.png")`,
   };
 
   return (

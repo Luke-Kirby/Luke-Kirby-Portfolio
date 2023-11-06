@@ -29,7 +29,7 @@ function ContactPoint(props: Props) {
               <a href={item.path}>{image}</a>
             )}
             <p>
-              <em>{item.label}</em>
+              {item.label}
             </p>
           </div>
         );

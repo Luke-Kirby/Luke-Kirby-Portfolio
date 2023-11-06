@@ -1,39 +1,31 @@
 .page-container-projects {
+  position: relative;
   width: 100%;
   min-height: 100vh;
   background-image: radial-gradient(#ffffff, #004979);
   display: flex;
   flex-direction: column;
+  overflow: auto;
 }
 
 .projects {
-  font-family: "Raleway", sans-serif;
-  color: rgb(255, 255, 255);
-  text-shadow: 4px 0px 4px black;
   height: fit-content;
+
+}
+
+h1 {
   margin: 20px 10% 0 10%;
-  h1 {
-    font-size: 50px;
-    //margin-bottom: 60px;
-  }
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+  font-family: "Raleway", sans-serif;
+  text-shadow: 4px 0px 4px black;
 }
 
 .box-container {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
-  width: 100%;
-  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(32%, 1fr));
+  gap: 5px; /* Add spacing between elements */
+  justify-items: center; /* Horizontally center elements */
+  padding: 20px;
+  overflow: auto;
 }
-
-.project-container {
-  display: flex;
-  justify-content: space-between;
-  //min-width: 50%;
-}
-
-// .project-container:hover {
-
-// }

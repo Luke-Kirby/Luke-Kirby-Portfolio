@@ -23,7 +23,7 @@ function Home() {
         }}
         className="page-container blue-back"
       >
-        <div className="text-bubble">
+        <div className="text-bubble-home">
           <p>
             My name is Luke Kirby and welcome to my website. I'm a Front-End
             Software Developer, UI / UX Designer and Mechanical Engineer. I am
@@ -35,7 +35,7 @@ function Home() {
           </p>
         </div>
 
-        <div className="text-bubble">
+        <div className="text-bubble-home">
           <p>
             I believe the key to maintaining a great website is clear planning,
             close collaboration and supportive teamwork of developers, designers

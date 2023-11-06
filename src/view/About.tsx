@@ -1,6 +1,4 @@
-import SkillIcon from "../components/SkillIcon";
 import "./About.scss";
-import classnames from "classnames";
 
 const skillItems = [
   { label: "JavaScript", top: false },
@@ -10,8 +8,6 @@ const skillItems = [
   { label: "HTML", top: false },
   { label: "Git", top: true },
 ];
-
-//const PictureItems = [{ label: "Climbing", imgPath: "" }];
 
 function About() {
   return (

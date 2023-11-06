@@ -4,6 +4,10 @@
   overflow: hidden;
 }
 
+.mobile-page-home {
+  background-position: center center !important;
+}
+
 .element-container {
   width: 400px;
   display: flex;
@@ -34,6 +38,20 @@
   .element-container {
     margin: auto auto auto 10vw;
   }
+
+  .title-h1 {
+    font-size: 40px;
+    justify-content: left;
+  }
+
+  .title-h2 {
+    font-size: 20px;
+  }
+
+  .mobile-page-home {
+    background-position: 70% center !important;
+  }
+
 }
 
 @keyframes animateh1 {

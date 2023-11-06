@@ -12,11 +12,10 @@ function PageContainer(props: Props) {
     background: `url(${props.backgroundPath})`,
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover ",
-    backgroundPosition: "center center",
     backgroundAttachment: "fixed",
   };
   return (
-    <div className="page-container" style={imgStyle}>
+    <div style={imgStyle} className="page-container mobile-page-home" >
       <div className="element-container">
         <h1 className={classnames("title", "title-h1")}>{props.title}</h1>
         <h2 className={classnames("title", "title-h2")}>

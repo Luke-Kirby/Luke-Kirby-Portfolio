@@ -25,6 +25,15 @@ function App() {
         <ExpandButton onClick={buttonClick} expand={sideBarButton} />
       </div>
 
+      {sideBarButton && (
+      <div
+        className="close-sidebar-modal"
+        onClick={() => {
+          setSideBarButton(false);
+        }}
+      ></div>
+    )}
+
       <div style={{ width: sideBarWidth }} className="sidebar">
         <SideBar expanded={sideBarButton} />
       </div>

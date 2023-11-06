@@ -1,7 +1,7 @@
 .social-container {
-  width: 60%;
+  width: 50%;
   height: 40px;
-  margin: 0 auto 25px 18%;
+  margin: 0 auto 25px 65px;
   display: flex;
   justify-content: space-between;
 }
@@ -15,4 +15,18 @@
 
 .social-icons:hover {
   background-color: rgb(20, 157, 221);
+}
+
+@media (max-width: 500px), (max-height: 500px) {
+  
+  .social-container {
+    width: 80%;
+    margin: 25px auto 50px 25px;
+  }
+
+  .social-icons {
+    height: 50px;
+    width: 50px;
+  }
+
 }

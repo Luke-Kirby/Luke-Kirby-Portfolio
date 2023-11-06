@@ -33,13 +33,18 @@ function Cv() {
     invertParklands(!DropButtonParklands);
   };
   return (
-    <div className="page-container-cv">
+
+<div
+        style={{
+          background: `url('/images/blueBckrnd1.jpg')`,
+          backgroundSize: "cover",
+          backgroundPosition: "center center",
+        }}
+        className="CV-background"
+      >
+
       <div className={classnames("cv", "cv-text")}>
-        <h1>
-          <em>
-            <u>Timeline</u>
-          </em>
-        </h1>
+        <h1>Timeline</h1>
         <div className="cv-content-cotainer">
           <div className="side-link">
             <div className="side-link-bottom"></div>
@@ -54,25 +59,28 @@ function Cv() {
             {DropButtonSelf ? null : null}
             <div className="block-text">
               <SmoothCollapse expanded={DropButtonSelf}>
-                <p style={{ marginLeft: "20px" }}>
+              <div className="text-bubble-CV">
+                <p>
                   I am seeking a career change from a Mechanical Engineer to a
                   Front-End Web Developer. Currently, I'm self learning
                   front-end web development (using online tools such as
                   Codecademy) with JavaScript and TypeScript (with React), Git,
                   HTML and CSS.
                 </p>
-                <p>
-                  <b>Projects:</b>
-                </p>
-                <p style={{ marginLeft: "20px" }}>
-                  I am currently volunteering for the charity{" "}
-                  <a href="https://planetpatrol.co/">Planet Patrol</a> to help
-                  develop their{" "}
-                  <a href="https://app.plasticpatrol.co.uk/#/">app</a> (React).
-                  I've been communicating closely with the program's manager and
-                  other software developers to create new features, resolve
-                  issues and fix bugs on the front-end of the app.
-                </p>
+
+              </div>
+                <h4>Projects</h4>
+                <div className="text-bubble-CV">
+                  <p>
+                    I am currently volunteering for the charity{" "}
+                    <a href="https://planetpatrol.co/">Planet Patrol</a> to help
+                    develop their{" "}
+                    <a href="https://app.plasticpatrol.co.uk/#/">app</a> (React).
+                    I've been communicating closely with the program's manager and
+                    other software developers to create new features, resolve
+                    issues and fix bugs on the front-end of the app.
+                  </p>
+                </div>
               </SmoothCollapse>
             </div>
 
@@ -84,6 +92,7 @@ function Cv() {
             />
             <div className="block-text">
               <SmoothCollapse expanded={DropButtonRosen}>
+              <div className="text-bubble-CV">
                 <p>
                   Technical based role that provided integrity services for post
                   inline inspections of oil and gas pipelines. This consisted of
@@ -114,6 +123,7 @@ function Cv() {
                     manage project-based workloads to ensure deadlines are met.
                   </li>
                 </ul>
+              </div>
               </SmoothCollapse>
             </div>
             <BulletPoint
@@ -124,9 +134,10 @@ function Cv() {
             />
             <div className="block-text">
               <SmoothCollapse expanded={DropButtonMasters}>
-                <p style={{ marginLeft: "20px" }}>
+                <h4>
                   Mechanical Design and Manufacturing Engineering (MEng).
-                </p>
+                </h4>
+              <div className="text-bubble-CV">
                 <p>
                   <b>Modules:</b>
                 </p>
@@ -142,22 +153,25 @@ function Cv() {
                   <li>Human Systems Integration</li>
                   <li>Structual Optimisation and Crashworthiness</li>
                 </ul>
-                <p>
-                  <b>Projects:</b>
-                </p>
-                <p style={{ marginLeft: "20px" }}>
-                  I have worked with the company Peacock Medical Group in the
-                  Selective Laser Sintering (SLS) sector. This project involved
-                  working with a team to analyse the 3D printing powder the
-                  company uses and produce methods such that the powder quality
-                  can be determined. This was predominantly a research and
-                  experiment-based project that involved using imaging,
-                  mechanical and thermal inspection methods within the
-                  university's laboratories. Other companies I have visited or
-                  completed projects for as a part of work experience modules
-                  include Caterpillar, British Engines, Siemens and PDL
-                  Solutions.
-                </p>
+              </div>
+                <div style={{marginTop: '40px'}} className="text-bubble-CV">
+                  <p>
+                    <b>Projects:</b>
+                  </p>
+                  <p style={{ marginLeft: "20px", marginTop: "20px" }}>
+                    I have worked with the company Peacock Medical Group in the
+                    Selective Laser Sintering (SLS) sector. This project involved
+                    working with a team to analyse the 3D printing powder the
+                    company uses and produce methods such that the powder quality
+                    can be determined. This was predominantly a research and
+                    experiment-based project that involved using imaging,
+                    mechanical and thermal inspection methods within the
+                    university's laboratories. Other companies I have visited or
+                    completed projects for as a part of work experience modules
+                    include Caterpillar, British Engines, Siemens and PDL
+                    Solutions.
+                  </p>
+                </div>
               </SmoothCollapse>
             </div>
             <BulletPoint
@@ -168,32 +182,35 @@ function Cv() {
             />
             <div className="block-text">
               <SmoothCollapse expanded={DropButtonBachelors}>
-                <p style={{ marginLeft: "20px" }}>
+                <h4>
                   Mechanical Engineering (BEng).
-                </p>
-                <p>
-                  <b>Modules:</b>
-                </p>
-                <ul>
-                  <li>
-                    Computational Modelling (including MATLAB, CAD and FEA)
-                  </li>
-                  <li>Engineering Mathematics and Statistical Data Analysis</li>
-                  <li>Design and Manufacturing</li>
-                  <li>Design for Industry</li>
-                  <li>Mechanics and Structual Optimisation</li>
-                  <li>Fluid Mechanics</li>
-                  <li>Application of ThermoFluid Mechanics</li>
-                  <li>Professional Skills</li>
-                  <li>Electrical Engineering</li>
-                  <li>AC Electrical Machines and Drives</li>
-                  <li>Material Science</li>
-                  <li>Accounting, Finance and Law for Engineers</li>
-                </ul>
+                </h4>
+                <div className="text-bubble-CV">
+                  <p>
+                    <b>Modules:</b>
+                  </p>
+                  <ul>
+                    <li>
+                      Computational Modelling (including MATLAB, CAD and FEA)
+                    </li>
+                    <li>Engineering Mathematics and Statistical Data Analysis</li>
+                    <li>Design and Manufacturing</li>
+                    <li>Design for Industry</li>
+                    <li>Mechanics and Structual Optimisation</li>
+                    <li>Fluid Mechanics</li>
+                    <li>Application of ThermoFluid Mechanics</li>
+                    <li>Professional Skills</li>
+                    <li>Electrical Engineering</li>
+                    <li>AC Electrical Machines and Drives</li>
+                    <li>Material Science</li>
+                    <li>Accounting, Finance and Law for Engineers</li>
+                  </ul>
+                </div>
+                <div style={{marginTop: '40px'}} className="text-bubble-CV">
                 <p>
                   <b>Projects:</b>
                 </p>
-                <p style={{ marginLeft: "20px" }}>
+                <p style={{ marginLeft: "20px", marginTop: "20px" }}>
                   I completed a project for the company DeepOcean, who operate
                   in the oil and gas sector. Working closely with this client, I
                   have produced many design-based deliverables for DeepOcean,
@@ -202,6 +219,7 @@ function Cv() {
                   experimental prototypes, risk assessment and hazard
                   identification documents.
                 </p>
+                </div>
               </SmoothCollapse>
             </div>
             <BulletPoint
@@ -212,31 +230,35 @@ function Cv() {
             />
             <div className="block-text">
               <SmoothCollapse expanded={DropButtonRunshaw}>
-                <p>
-                  <b>A-Levels:</b>
-                </p>
-                <ul>
-                  <li>
-                    Maths - <b>A</b>
-                  </li>
-                  <li>
-                    Physics - <b>B</b>
-                  </li>
-                  <li>
-                    3D Design - <b>B</b>
-                  </li>
-                </ul>
-                <p>
-                  <b>AS-Levels:</b>
-                </p>
-                <ul>
-                  <li>
-                    Further Maths - <b>A</b>
-                  </li>
-                  <li>
-                    Computing - <b>C</b>
-                  </li>
-                </ul>
+                <h4>
+                  A-Levels
+                </h4>
+                <div className="text-bubble-CV">
+                  <ul style={{width: '150px', marginLeft: '0px'}}>
+                    <li>
+                      Maths - <b>A</b>
+                    </li>
+                    <li>
+                      Physics - <b>B</b>
+                    </li>
+                    <li>
+                      3D Design - <b>B</b>
+                    </li>
+                  </ul>
+                </div>
+                <h4>
+                  AS-Levels
+                </h4>
+                <div className="text-bubble-CV">
+                  <ul style={{width: '150px' ,marginLeft: '0px'}}>
+                    <li>
+                      Further Maths - <b>A</b>
+                    </li>
+                    <li>
+                      Computing - <b>C</b>
+                    </li>
+                  </ul>
+                </div>
               </SmoothCollapse>
             </div>
             <BulletPoint
@@ -247,15 +269,22 @@ function Cv() {
             />
             <div className="block-text">
               <SmoothCollapse expanded={DropButtonParklands}>
+              <div className="text-bubble-CV">
                 <p>
                   9 subjects including Maths and Physics: <b>A - C</b>
                 </p>
+              </div>
               </SmoothCollapse>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    {/* <div className="page-container-cv">
+    </div> */}
+
+      </div>
+
+
   );
 }
 

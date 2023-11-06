@@ -25,13 +25,11 @@ function Contact() {
     >
       <div className={classnames("contact", "contact-text")}>
         <h1>
-          <em>
-            <u>Contact</u>
-          </em>
+            Contact
         </h1>
-        <div className="details-container">
           <ContactPoint items={items} />
-        </div>
+        {/* <div className="details-container">
+        </div> */}
       </div>
     </div>
   );

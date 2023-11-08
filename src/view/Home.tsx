@@ -56,7 +56,7 @@ function Home() {
         <p>lbkirby96@hotmail.com</p>
         <p>+44 7719 155448</p>
         <p>
-          <a>https://uk.linkedin.com/in/luke-kirby-771baa155</a>
+          <a href="https://uk.linkedin.com/in/luke-kirby-771baa155">LinkedIn</a>
         </p>
         <p>Newcastle Upon Tyne</p>
 

@@ -1,13 +1,13 @@
 import "./About.scss";
 
-const skillItems = [
-  { label: "JavaScript", top: false },
-  { label: "TypeScript", top: true },
-  { label: "React", top: false },
-  { label: "CSS", top: true },
-  { label: "HTML", top: false },
-  { label: "Git", top: true },
-];
+// const skillItems = [
+//   { label: "JavaScript", top: false },
+//   { label: "TypeScript", top: true },
+//   { label: "React", top: false },
+//   { label: "CSS", top: true },
+//   { label: "HTML", top: false },
+//   { label: "Git", top: true },
+// ];
 
 function About() {
   return (

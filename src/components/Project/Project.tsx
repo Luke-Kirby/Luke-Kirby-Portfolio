@@ -3,6 +3,7 @@ import "./Project.scss";
 interface Props {
   project: string;
   path: string;
+  description: string;
 }
 
 function Project(props: Props) {
@@ -17,7 +18,7 @@ function Project(props: Props) {
           <div style={style} className="project-img"></div>
         </div>
       </a>
-      <p className="proj-desc">Short description Short description Short description Short description</p>
+      <p className="proj-desc">{props.description}</p>
     </div>
   );
 }

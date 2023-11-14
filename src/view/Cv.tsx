@@ -5,6 +5,11 @@ import BulletPoint from "../components/Cv/BulletPoint";
 import SmoothCollapse from "../components/Cv/ExpandContainer";
 
 function Cv() {
+  const [DropButtonTheia, invertTheia] = useState(false);
+  const buttonClickTheia = () => {
+    invertTheia(!DropButtonTheia);
+  };
+
   const [DropButtonSelf, invertSelf] = useState(false);
   const buttonClickSelf = () => {
     invertSelf(!DropButtonSelf);
@@ -52,40 +57,80 @@ function Cv() {
           <div className="timescale-content">
             <BulletPoint
               time="Present"
-              label="Self Learning"
+              label="THEIA"
+              onClick={buttonClickTheia}
+              expand={DropButtonTheia}
+            />
+            <div className="block-text">
+              <SmoothCollapse expanded={DropButtonTheia}>
+                <div className="text-bubble-CV">
+                  <p>
+                    I am one of the two Front-End 
+                    (FE) software engineers and the UI/UX 
+                    designer for Penspen’s Integrity Engineering SaaS,&nbsp;
+                     <a href="https://www.penspen.com/capabilities/technical-solutions/theia/">THEIA</a>
+                    . This is a start-up app that is growing rapidly in the 
+                    industry of Pipeline Inspection and Post Inline Inspection (ILI) 
+                    Integrity Services. I am developing a tool that automates and assists 
+                    the engineers to overcome the complex challenges that exist within the industry.
+                  </p>
+                </div>
+                <div style={{marginTop: '40px'}} className="text-bubble-CV">
+                  <p>
+                    The FE’s framework is Angular 15, which I am very familiar with. My job role includes:
+                  </p>
+                  <ul>
+                    <li>UI/UX design work consisting of creating clear user-friendly wireframes and user-flows 
+                      for Integrity Engineers and Pipeline Operators. I wrote the official design guide for THEIA. 
+                      Understanding of the tool technologies, assessments and a general overall industry knowledge 
+                      allows me to confidently present the engineering tools and wireframes to clients.</li>
+                    <li>Use of TypeScript, HTML and SCSS to develop complex engineering interfaces with much use of 
+                      Angular’s library options. I connect these interfaces to Back End (BE) API Endpoints. I have 
+                      greatly automated the process of HTML & CSS web development through reusable Angular components. 
+                      Optimisation and enforcement of clean, reusable code ensures high performance and good habits.</li>
+                    <li>In my current role I am coordinating the Front End of the app. I believe that before a single line 
+                      of code is typed; a clear scope, defined API flow and a detailed project plan is completed and approved. 
+                      Close communication with the BE, Testing team and the Project Manager / Owner is key throughout the development 
+                      cycle. As THEIA is rapidly growing, the team is growing exponentially and a ticketing system in AZURE is 
+                      currently used to manage the Agile Sprint methodology.</li>
+                    <li>Liaising with Integrity Engineers upon technical matters and maintaining a clear understanding of the codes and
+                       standards used within this industry.</li>
+                  </ul>
+                </div>
+                <div style={{marginTop: '40px'}} className="text-bubble-CV">
+                  <p>I achieved the “Regional Leadership Team Quarterly Award” at Penspen in October 2023.</p>
+                </div>
+              </SmoothCollapse>
+            </div>
+            <BulletPoint
+              time="2022 (July)"
+              label="Volunteer Work"
               onClick={buttonClickSelf}
               expand={DropButtonSelf}
             />
-            {DropButtonSelf ? null : null}
             <div className="block-text">
               <SmoothCollapse expanded={DropButtonSelf}>
-              <div className="text-bubble-CV">
-                <p>
-                  I am seeking a career change from a Mechanical Engineer to a
-                  Front-End Web Developer. Currently, I'm self learning
-                  front-end web development (using online tools such as
-                  Codecademy) with JavaScript and TypeScript (with React), Git,
-                  HTML and CSS.
-                </p>
-
-              </div>
-                <h4>Projects</h4>
                 <div className="text-bubble-CV">
                   <p>
-                    I am currently volunteering for the charity{" "}
-                    <a href="https://planetpatrol.co/">Planet Patrol</a> to help
-                    develop their{" "}
+                    I did some volunteer work for the non-profit organisation Planet Patrol
+                     to help develop the Front-End of their{" "}
                     <a href="https://app.plasticpatrol.co.uk/#/">app</a> (React).
-                    I've been communicating closely with the program's manager and
+                    I communicated closely with the program's manager and
                     other software developers to create new features, resolve
-                    issues and fix bugs on the front-end of the app.
+                    issues and fix bugs.
+                  </p>
+                </div>
+                <div style={{marginTop: '40px'}}  className="text-bubble-CV">
+                  <p>
+                    I helped to develop some of the Front-End functionality on a caravan park website,{" "}
+                    <a href="https://www.guillerin.com/">Guillerin</a>. I had experience here using the Vue 
+                    framework and developing a "booking" style website with multiple languages.
                   </p>
                 </div>
               </SmoothCollapse>
             </div>
-
             <BulletPoint
-              time="2022"
+              time="2022 (April)"
               label="ROSEN Group - Integrity Engineer"
               onClick={buttonClickRosen}
               expand={DropButtonRosen}

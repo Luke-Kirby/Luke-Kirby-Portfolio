@@ -1,8 +1,7 @@
 .page-container-projects {
   position: relative;
   width: 100%;
-  min-height: 100vh;
-  background-image: radial-gradient(#ffffff, #004979);
+  height: 100vh;
   display: flex;
   flex-direction: column;
   overflow: auto;
@@ -10,7 +9,6 @@
 
 .projects {
   height: fit-content;
-
 }
 
 h1 {
@@ -27,5 +25,12 @@ h1 {
   gap: 5px; /* Add spacing between elements */
   justify-items: center; /* Horizontally center elements */
   padding: 20px;
-  overflow: auto;
+}
+
+@media (max-width: 500px), (max-height: 500px) {
+
+  .box-container {
+    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+  }
+
 }

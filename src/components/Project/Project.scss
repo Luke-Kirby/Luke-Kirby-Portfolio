@@ -48,3 +48,10 @@
   color: white;
 }
 
+@media (max-width: 500px), (max-height: 500px) {
+
+  .project-closed {
+    height: 50vh;
+  }
+  
+}

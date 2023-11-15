@@ -21,11 +21,11 @@ function Projects() {
         <Project 
           project="Planet-Patrol"
           path="https://app.plasticpatrol.co.uk/#/"
-          description="Voulenteer work to help fix bugs and develop new features (React)"/>
+          description="Volunteer work to help fix bugs and develop new features (React)"/>
         <Project 
           project="Guillerin"
           path="https://www.guillerin.com/"
-          description="Voulenteer work to help develop some web-pages (Vue)"/>
+          description="Volunteer work to help develop some web-pages (Vue)"/>
         <Project 
           project="ticTacToe"
           path="https://shiny-naiad-125924.netlify.app/"

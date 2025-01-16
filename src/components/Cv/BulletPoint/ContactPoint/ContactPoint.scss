@@ -4,7 +4,6 @@
   display: flex;
   justify-content: space-evenly;  
   flex-direction: column;
-  margin-left: 40px;
   align-items: center;
 }
 
@@ -16,7 +15,10 @@
   display: flex;
   justify-content: left;
   align-self: flex-start;
+  align-items: center;
   margin: 10px 0px;
+  padding-left: 4rem;
+  border-radius: 0rem 4rem 4rem 0rem;
 }
 
 .contact-icon {
@@ -34,5 +36,11 @@ p {
 
   .icon-label-container {
     margin-left: 0px;
+  }
+  
+  .icon-label {
+    p {
+      font-size: medium !important;
+    }
   }
 }

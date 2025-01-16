@@ -23,10 +23,12 @@ function About() {
       }}
       className="page-container"
     >
-      <h1 className="about-h1">Engineer</h1>
-      <h1 className="about-h1">Developer</h1>
-      <h1 className="about-h1">Designer</h1>
-      <h1 className="about-h1">Planner</h1>
+      <div className="about-strip">
+        <h1 className="about-h1">Engineer</h1>
+        <h1 className="about-h1">Developer</h1>
+        <h1 className="about-h1">Designer</h1>
+        <h1 className="about-h1">Manager</h1>
+      </div>
       
     </div>
   );

@@ -56,7 +56,7 @@ function Cv() {
           </div>
           <div className="timescale-content">
             <BulletPoint
-              time="Present"
+              time="2025"
               label="THEIA"
               onClick={buttonClickTheia}
               expand={DropButtonTheia}
@@ -65,36 +65,21 @@ function Cv() {
               <SmoothCollapse expanded={DropButtonTheia}>
                 <div className="text-bubble-CV">
                   <p>
-                    I am one of the two Front-End 
-                    (FE) software engineers and the UI/UX 
-                    designer for Penspen’s Integrity Engineering SaaS,&nbsp;
+                    Manager and lead software developer of the Frontend team at &nbsp;
                      <a href="https://www.penspen.com/capabilities/technical-solutions/theia/">THEIA</a>
-                    . This is a start-up app that is growing rapidly in the 
-                    industry of Pipeline Inspection and Post Inline Inspection (ILI) 
-                    Integrity Services. I am developing a tool that automates and assists 
-                    the engineers to overcome the complex challenges that exist within the industry.
+                    . I planned sprints, designed UI specifications and led my team to develop a tool that automates and assists the engineers to overcome the complex challenges that exist within the pipeline inspection industry.
                   </p>
                 </div>
                 <div style={{marginTop: '40px'}} className="text-bubble-CV">
                   <p>
-                    The FE’s framework is Angular 15, which I am very familiar with. My job role includes:
+                    The Frontend’s framework is Angular, which I am very familiar with. My job role included:
                   </p>
                   <ul>
-                    <li>UI/UX design work consisting of creating clear user-friendly wireframes and user-flows 
-                      for Integrity Engineers and Pipeline Operators. I wrote the official design guide for THEIA. 
-                      Understanding of the tool technologies, assessments and a general overall industry knowledge 
-                      allows me to confidently present the engineering tools and wireframes to clients.</li>
-                    <li>Use of TypeScript, HTML and SCSS to develop complex engineering interfaces with much use of 
-                      Angular’s library options. I connect these interfaces to Back End (BE) API Endpoints. I have 
-                      greatly automated the process of HTML & CSS web development through reusable Angular components. 
-                      Optimisation and enforcement of clean, reusable code ensures high performance and good habits.</li>
-                    <li>In my current role I am coordinating the Front End of the app. I believe that before a single line 
-                      of code is typed; a clear scope, defined API flow and a detailed project plan is completed and approved. 
-                      Close communication with the BE, Testing team and the Project Manager / Owner is key throughout the development 
-                      cycle. As THEIA is rapidly growing, the team is growing exponentially and a ticketing system in AZURE is 
-                      currently used to manage the Agile Sprint methodology.</li>
-                    <li>Liaising with Integrity Engineers upon technical matters and maintaining a clear understanding of the codes and
-                       standards used within this industry.</li>
+                    <li><strong>Sprint Planning:</strong> Working with the product owner and CEO to agree and develop our Frontend codebase according to our clients needs. Careful planning, accurate time estimations and creation of functional specifications (such wireframes and API schemas) are all standard procedure for me before the start of a sprint. My industry expertise naturally positioned me as the client-facing representative for THEIA, where I’ve developed and maintained strong, lasting relationships with our clients.</li>
+                    <li><strong>Management:</strong> At the start of every sprint, I ensure all developers in my team have clearly scoped tickets. Daily calls with my team maintain a high productivity whilst providing adequate support. I believe close communication is the key to strong teamwork.</li>
+                    <li><strong>Software Development:</strong> Use of TypeScript, HTML and SCSS to develop complex engineering interfaces with much use of Angular’s library options. I connect these interfaces to Backend API endpoints. I have significantly reduced the required development time for many sprints during my time at THEIA through creation and use reusable Angular components. Optimisation and enforcement of clean, reusable code ensures high performance and good habits. Clean branch management and thorough checking during Pull Requests is a must.</li>
+                    <li><strong>UI/UX Design:</strong> Consistently creating clear user-friendly wireframes and user-flows in Figma for both internal and external personnel. Avoiding overly complex designs and sticking to best practices ensures familiar, comprehensive interfaces that are easy to navigate. I wrote the official design guide for THEIA, ensuring brand guidelines are followed throughout.</li>
+                    <li><strong>Engineering:</strong> My background in Mechanical Engineering gives me an extensive understanding of the technologies, assessments and overall industry knowledge involved in Pipeline Integrity. I frequently liaise with Engineers upon technical matters and maintain an up-to-date understanding of the codes / standards used within this industry. I regularly host workshops and lunch-&-learns to bridge the gap between engineering and software development. I believe mathematical modelling should be interchangeable with programming.</li>
                   </ul>
                 </div>
                 <div style={{marginTop: '40px'}} className="text-bubble-CV">

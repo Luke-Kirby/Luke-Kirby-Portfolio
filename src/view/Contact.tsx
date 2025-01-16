@@ -4,14 +4,14 @@ import ContactPoint from "../components/Cv/BulletPoint/ContactPoint";
 
 const items = [
   {
-    label: "Newcastle upon Tyne",
-    icon: "location",
-    path: "https://goo.gl/maps/B7ruTsFdHhrYMEKT9",
-  },
-  {
     label: "lbkirby96@hotmail.com",
     icon: "bigMail",
     path: "mailto:lbkirby96@hotmail.com",
+  },
+  {
+    label: "Newcastle upon Tyne",
+    icon: "location",
+    path: "https://goo.gl/maps/B7ruTsFdHhrYMEKT9",
   },
   { label: "07719 155 448", icon: "mobile", path: "" },
   { label: "GitHub", icon: "bigGitHub", path: "https://github.com/Luke-Kirby" },

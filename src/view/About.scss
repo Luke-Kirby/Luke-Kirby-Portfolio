@@ -15,14 +15,27 @@
   display: none;
 }
 
+.about-strip {
+  background-color: #00234B65;
+  width: 30%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-left: 10%;
+}
+
 .about-h1 {
   font-size: 30px !important;
-  margin-left: 20vw;
   color: white;
 }
 
 @media (max-width: 500px), (max-height: 500px) {
   
+  .about-strip {
+    width: 100% !important;
+  }
+
   .about-h1 {
     margin-left: 50px;
   }

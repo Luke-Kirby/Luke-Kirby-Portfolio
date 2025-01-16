@@ -25,13 +25,11 @@ function Home() {
       >
         <div className="text-bubble-home">
           <p>
-            My name is Luke Kirby and welcome to my website. I'm a Front-End
-            Software Developer, UI / UX Designer and Mechanical Engineer. I am
+            My name is Luke Kirby and welcome to my website. I'm a Lead Frontend
+            Software Developer, Manager, UI / UX Designer and Mechanical Engineer. I am
             proficient in the popular TypeScript frameworks of React, Angular
             and Vue. I am the go-to UI / UX designer in my team and proficient
-            at creating Wireframes, User-Flows and API Flows. Additionally, I
-            have a background in Mechanical Engineering and thrive in problem
-            solving environments.
+            at creating Wireframes, User-Flows and API Flows. As an engineer, I have learned to thrive in problem solving environments.
           </p>
         </div>
 

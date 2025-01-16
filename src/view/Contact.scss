@@ -21,8 +21,8 @@
   font-family: "Raleway", sans-serif;
   color: rgb(255, 255, 255);
   text-shadow: 4px 0px 4px black;
-  //width: 80%;
-  margin: 20px 10% 0 10%;
+  background-color: #00234B65;
+  width: 40%;
 }
 
 .contact-text {
@@ -33,7 +33,7 @@
   h1 {
     font-size: 50px;
     margin-bottom: 30px;
-    margin-left: 0px !important;
+    margin-left: 4rem !important;
   }
   p {
     font-size: 25px;
@@ -55,5 +55,11 @@
 
   p {
     margin: 0px;
+  }
+}
+
+@media (max-width: 500px), (max-height: 500px) {
+  .contact {
+    width: 100%;
   }
 }
